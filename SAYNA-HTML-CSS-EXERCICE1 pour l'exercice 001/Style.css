@@ -1,0 +1,160 @@
+/* Cette portion body je vous montre comment insérer image bacground,taille de police */
+body{
+    font-family: Arial, sans-serif;
+    background-image: url("/img/background.png");
+    background-attachment: fixed;
+    background-position: 100%;
+} 
+.titre{
+    text-align: center;
+    font-size: 15px;
+    color: #c55394;
+    font-family: 'Courgette', cursive;
+}
+/* Cette partie header vous présente la coloration background,coloration menu, style d'affichage */
+header{
+    background-color: #c53394;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+/* Cette portion titre je vous explique comment insérer l'image rainbow comme arrière plan d'un titre, comment régler le style d'affichage, taille et la couleur de police  */
+.jour{
+    background: url(/img/rainbow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    background-size: 550px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Courgette', cursive;
+    color: #c55394;
+    padding: 40px;
+    background-position-y: 5%;
+}
+.logo h1{
+    font-family: 'Courgette', cursive;
+}
+/* nav a ci-dessous répresente la taille et la couleur de police menu */
+nav a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+a:hover{
+    background-color: #eb43a3;
+    padding: 30px;
+}
+.noslicorne figure:hover{
+    transform: scale(1.2);
+}
+/* La partie ci-après présente la mise en forme d'un menu et les images */
+section{
+    border: 0;
+    filter: drop-shadow( 0px 0px 1px #333);
+    margin: 220px 220px;
+    position: absolute;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 2px;
+    margin-top: 50px;
+}
+.noslicorne{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.noslicorne figure figcaption{
+    display: flex;
+   align-items: center;
+   background: #333;
+   position: relative;
+   top: -28px;
+   opacity: 80%; 
+   justify-content: center;
+}
+.noslicorne figure figcaption p{
+    color: #fff;
+    margin: 6px;
+}
+
+.noslicorne figure img{
+    height: 160px;
+}
+iframe{
+    float: left;
+}
+.titre{
+ color: #EB43A3;   
+}
+.principe h2{
+color: #EB43A3;
+font-family: 'Couregette', cursive;
+font-size: 24px;
+}
+.corne h3{
+color: #EB43A3;
+font-family: 'Couregette', cursive;
+font-size: 24px;
+}
+.trouver h4{
+color: #EB43A3;
+font-family: 'Couregette', cursive;
+font-size: 24px;
+}
+.formulaire{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+/* Cette portion représente la mise en forme de footer; coloration background, sns */
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #c53394;
+    margin-top: 90%;
+    position: absolute;
+    float: right;
+    font-family: Arial, sans-serif;
+}
+/* Toujours dans la partie footer,mais se concentre sur la modification de la couleur et taille de police, ainsi que la position */
+#footer{
+    float: right;
+    font-size: 12px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+.news{
+    font-size: 15px;
+    margin: 0;
+    font-family: 'Couregette', cursive;
+    color: #EB43A3;
+}
+.lieu{
+    font-size: 15px;
+    margin: 0;
+    font-family: 'Couregette', cursive;
+    color: #EB43A3;
+} 
+.carte iframe{
+    margin-right: 10px;
+}
+/* Dans cette partie je vous montre la mise en forme d'un boutton Valider */
+.boutton{
+    border: none;
+    border-radius: 5px;
+    margin: 4px 2px;
+    padding: 5px;
+    display: inline-block;
+    background-color: #EB43A3;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
